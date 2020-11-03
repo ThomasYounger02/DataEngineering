@@ -22,3 +22,4 @@
 - First, DDL(DROP, CREATE, INSERT) and queries(SELECT) are defined in sql_queries.py
 - Then,  sparkifydb is created in create_tables.py with functions(create_database, drop_tables, and create_tables to create the database).
 - Finaly, run etl.py to reset tables.
+![star](https://github.com/ThomasYounger02/DataEngineering/blob/master/Projects/Sparkify/star.png)

@@ -10,7 +10,7 @@ def process_song_file(cur, filepath):
     Pocess song file from json files and insert song and artist data into tables.
 
         Parameters:
-                cur (): cursor to data basement
+                cur (cursor): cursor to data basement
                 filepath (str): the path to files
 
         Returns:
@@ -33,7 +33,7 @@ def process_log_file(cur, filepath):
     Pocess log file from json files and insert user and songplay data into tables.
 
         Parameters:
-                cur (): cursor to data basement
+                cur (cursor): cursor to data basement
                 filepath (str): the path to files
 
         Returns:
@@ -107,10 +107,10 @@ def process_data(cur, conn, filepath, func):
     Pocess song file from json files and insert song and artist data into tables.
 
         Parameters:
-                cur (): cursor to data basement
-                conn (): connection to data basement
+                cur (cursor): cursor to data basement
+                conn (connection): connection to data basement
                 filepath (str): Another decimal integer
-                func (): functions mapped to data
+                func (function): functions mapped to data
 
         Returns:
                 None
